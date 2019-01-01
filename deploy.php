@@ -48,7 +48,7 @@ task('horizon:terminate', function () {
    ->set('deploy_path', '/home/web/staging.larastud.io');
 
    host('production')
-   ->hostname('my.larastud.io')
+   ->hostname('larastud.io')
    ->user('forge')
    ->forwardAgent()
    ->stage('production')
