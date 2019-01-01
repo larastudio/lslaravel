@@ -11,14 +11,11 @@ set('ssh_type', 'native');
 set('keep_releases', 10);
 
 // Make sure uploads & published aren't overwritten by deploying
-set('shared_dirs', [
-    'public/uploads',
-]);
+set('shared_dirs', []);
 set('shared_files', [
     '.env',
 ]);
 set('writable_dirs', [
-    'public/uploads',
     'storage/framework/cache/data',
 ]);
 
