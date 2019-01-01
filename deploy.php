@@ -52,7 +52,7 @@ task('horizon:terminate', function () {
    ->user('forge')
    ->forwardAgent()
    ->stage('production')
-   ->set('deploy_path', '/home/web/larastud.io');
+   ->set('deploy_path', '/home/web/lslaravel');
 
 
 // Run database migrations
