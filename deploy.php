@@ -32,18 +32,18 @@ task('horizon:terminate', function () {
 // dep deploy staging
 
    host('staging')
-   ->hostname('staging.larastud.io')
+   ->hostname('staging.lara.studio')
    ->user('web')
    ->forwardAgent()
    ->stage('staging')
-   ->set('deploy_path', '/home/web/staging.larastud.io');
+   ->set('deploy_path', '/home/web/staging.lara.studio');
 
    host('production')
-   ->hostname('larastud.io')
+   ->hostname('lara.studio')
    ->user('web')
    ->forwardAgent()
    ->stage('production')
-   ->set('deploy_path', '/home/web/laravel');
+   ->set('deploy_path', '/home/web/lslaravel');
 
 
 // Run database migrations
